@@ -1,0 +1,88 @@
+version: 2
+
+sources:
+  - name: raw_daily
+    database: hubspot_base_tables
+    schema: v2_daily
+    tables: 
+      - name: v2_daily_contacts
+        identifier: objects_contacts  
+
+      - name: v2_daily_webinar
+        identifier: objects_bigmarker_webinar  
+
+      - name: v2_daily_emails
+        identifier: objects_marketing_emails   
+
+      - name: v2_daily_campaigns
+        identifier: objects_campaigns 
+
+      - name: v2_daily_asso_cont_to_web
+        identifier: associations_contacts_to_bigmarker_webinar  
+
+
+  - name: salesforce_raw 
+    database: production
+    schema: salesforce_base_tables
+    tables: 
+      - name: sf_account
+        identifier: account 
+
+      - name: sf_contact
+        identifier: contact          
+
+      - name: sf_lead
+        identifier: lead
+
+      - name: sf_opp
+        identifier: opportunity
+
+      - name: sf_opp_prod
+        identifier: opportunitylineitem 
+
+      - name: sf_camp
+        identifier: campaign
+
+      - name: sf_user
+        identifier: user
+
+      - name: sf_userrole
+        identifier: userrole  
+
+
+  - name: oracle_raw 
+    database: production
+    schema: oracle_base_tables
+    tables: 
+      - name: oracle_order
+        identifier: oe_order_headers_all   
+
+  - name: egg_raw 
+    database: integration
+    schema: eggplant
+    tables: 
+      - name: egg_opp
+        identifier: opportunity  
+        
+  - name: des_mktg
+    database: production
+    schema: des_marketing
+    tables: 
+      - name: lead_map
+        identifier: lead_source_mapping  
+
+      - name: region_map
+        identifier: region_mapping
+
+      - name: leads_exclude_map
+        identifier: leads_exclude  
+
+      - name: opp_stage_map
+        identifier: opp_stage_mapping  
+
+      - name: role_map
+        identifier: role_mapping    
+
+      - name: country_map
+        identifier: country_mapping    
+

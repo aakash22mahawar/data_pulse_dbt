@@ -1,0 +1,115 @@
+2026-04-24 19:43:42.905 IST [26120] LOG:  starting PostgreSQL 18.3 on x86_64-windows, compiled by msvc-19.44.35223, 64-bit
+2026-04-24 19:43:42.917 IST [26120] LOG:  listening on IPv6 address "::1", port 5432
+2026-04-24 19:43:42.917 IST [26120] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-04-24 19:43:43.831 IST [34208] LOG:  database system was interrupted; last known up at 2026-04-15 19:12:55 IST
+2026-04-24 19:43:44.871 IST [34208] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-04-24 19:43:44.886 IST [34208] LOG:  redo starts at 0/585A0B0
+2026-04-24 19:43:44.886 IST [34208] LOG:  invalid record length at 0/585A1B8: expected at least 24, got 0
+2026-04-24 19:43:44.887 IST [34208] LOG:  redo done at 0/585A180 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-04-24 19:43:44.897 IST [28832] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-04-24 19:43:44.930 IST [28832] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.007 s, total=0.037 s; sync files=2, longest=0.004 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/585A1B8, redo lsn=0/585A1B8
+2026-04-24 19:43:44.940 IST [26120] LOG:  database system is ready to accept connections
+2026-04-24 19:43:45.483 IST [21896] LOG:  TimescaleDB background worker launcher connected to shared catalogs
+2026-04-24 19:45:35.645 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-24 19:45:43.995 IST [25636] WARNING:  autovacuum worker started without a worker entry
+2026-04-24 19:48:44.927 IST [28832] LOG:  checkpoint starting: time
+2026-04-24 19:48:49.310 IST [28832] LOG:  checkpoint complete: wrote 40 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.303 s, sync=0.052 s, total=4.384 s; sync files=29, longest=0.004 s, average=0.002 s; distance=201 kB, estimate=201 kB; lsn=0/588C788, redo lsn=0/588C730
+2026-04-24 19:53:44.456 IST [28832] LOG:  checkpoint starting: time
+2026-04-24 19:53:45.256 IST [28832] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.757 s, sync=0.012 s, total=0.800 s; sync files=5, longest=0.003 s, average=0.003 s; distance=44 kB, estimate=185 kB; lsn=0/5897A28, redo lsn=0/58979D0
+2026-04-24 19:58:12.894 IST [39044] ERROR:  relation "publih_queue2" does not exist at character 23
+2026-04-24 19:58:12.894 IST [39044] STATEMENT:  COPY  ( SELECT * FROM publih_queue2 ) TO STDOUT WITH CSV HEADER;
+2026-04-24 19:59:26.207 IST [39044] ERROR:  relation "publih_queue2" does not exist at character 23
+2026-04-24 19:59:26.207 IST [39044] STATEMENT:  COPY  ( SELECT * FROM publih_queue2 ) TO STDOUT WITH CSV HEADER;
+2026-04-24 20:03:44.281 IST [28832] LOG:  checkpoint starting: time
+2026-04-24 20:03:44.664 IST [28832] LOG:  checkpoint complete: wrote 3 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.337 s, sync=0.005 s, total=0.384 s; sync files=2, longest=0.003 s, average=0.003 s; distance=23 kB, estimate=169 kB; lsn=0/589D638, redo lsn=0/589D5E0
+2026-04-24 20:45:20.484 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-24 20:45:35.494 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-24 20:45:35.972 IST [21196] WARNING:  autovacuum worker started without a worker entry
+2026-04-24 20:45:36.237 IST [27544] WARNING:  autovacuum worker started without a worker entry
+2026-04-24 20:47:16.196 IST [39156] LOG:  the "timescaledb" extension is not up-to-date
+2026-04-24 20:47:16.196 IST [39156] HINT:  The most up-to-date version is 2.26.3, the installed version is 2.26.2.
+2026-04-24 20:48:44.724 IST [28832] LOG:  checkpoint starting: time
+2026-04-24 20:48:45.607 IST [28832] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.785 s, sync=0.039 s, total=0.884 s; sync files=10, longest=0.007 s, average=0.004 s; distance=43 kB, estimate=156 kB; lsn=0/58A8318, redo lsn=0/58A82C0
+2026-04-24 22:20:06.353 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-24 22:23:54.792 IST [40100] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 06:12:05.365 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 06:12:12.022 IST [35356] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 13:57:40.864 IST [28832] LOG:  checkpoint starting: time
+2026-04-25 13:57:45.507 IST [28832] LOG:  checkpoint complete: wrote 38 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.385 s, sync=0.079 s, total=4.644 s; sync files=33, longest=0.007 s, average=0.003 s; distance=211 kB, estimate=211 kB; lsn=0/58DCF20, redo lsn=0/58DCEC8
+2026-04-25 13:58:07.701 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 13:58:17.704 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 13:58:27.716 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 13:58:47.819 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 13:58:57.821 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 13:59:08.945 IST [19924] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 13:59:27.838 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 13:59:37.854 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 13:59:43.121 IST [23376] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 19:12:24.003 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 19:12:34.090 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 19:12:44.107 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 19:12:53.106 IST [35004] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 19:13:04.112 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 19:13:06.240 IST [28832] LOG:  checkpoint starting: time
+2026-04-25 19:13:10.573 IST [28832] LOG:  checkpoint complete: wrote 35 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.116 s, sync=0.022 s, total=4.335 s; sync files=25, longest=0.002 s, average=0.001 s; distance=191 kB, estimate=209 kB; lsn=0/590CB98, redo lsn=0/590CB40
+2026-04-25 19:13:14.320 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 19:13:16.546 IST [42684] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 19:42:34.002 IST [26120] LOG:  could not reserve shared memory region (addr=000001A108E90000) for child 0000000000000DD0: error code 487
+2026-04-25 20:29:23.768 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:29:35.022 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:29:45.048 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:29:55.152 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:30:10.128 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:30:20.285 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:30:22.476 IST [59544] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:30:24.684 IST [59788] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:30:35.834 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:30:50.808 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:30:51.739 IST [6420] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:30:52.169 IST [22456] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:31:20.984 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:31:31.490 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:31:39.098 IST [44816] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:31:56.553 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:32:06.587 IST [12444] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:32:27.171 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:32:37.190 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:32:47.372 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:32:57.476 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:32:59.164 IST [52692] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:33:00.041 IST [58608] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:33:00.678 IST [57756] WARNING:  autovacuum worker started without a worker entry
+2026-04-25 20:33:12.489 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:33:22.492 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:33:32.556 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:33:42.705 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:33:52.823 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:34:07.646 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:34:17.797 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:34:28.880 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:34:42.911 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:34:52.936 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:35:04.470 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:35:19.055 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:35:33.784 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:35:43.975 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:35:54.160 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:36:04.279 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:36:15.416 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:36:25.577 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:36:35.866 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:36:46.177 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:36:56.816 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:37:07.151 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:37:17.434 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:37:32.305 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:37:47.746 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:38:02.158 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:38:12.449 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:38:27.337 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:38:37.344 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:38:47.843 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:38:58.315 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:39:08.458 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:39:23.442 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
+2026-04-25 20:39:33.466 IST [35732] WARNING:  autovacuum worker took too long to start; canceled
