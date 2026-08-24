@@ -225,3 +225,15 @@ This implementation provides a demo-grade v0 data foundation that validates the 
 The architecture is intentionally lightweight and focuses on proving:
 
 **Data arrives → identities can be associated → events are modeled → business metrics can be visualized.**
+
+## Warehouse Runbook
+
+### Daily
+- Check event volumes by type.
+- Check identity stitching (`anonymous_id` → `user_id`).
+- Confirm dbt models run successfully.
+
+### Weekly
+- Review event/property consistency.
+- Check for unexpected schema or event changes.
+- Review key metrics such as purchases and active users.
