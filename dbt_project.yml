@@ -2,11 +2,11 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'telemetry_dbt'
-version: '1.0.0'
+name: 'data_pulse'
+version: '1.10.13'
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'snowflake_dbt_telemetry'
+profile: 'snowflake_dbt_learning'
 
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
@@ -25,7 +25,7 @@ clean-targets:
 target-path: "target"  # 👈 Add this line to fix the error
 
 models:
-  telemetry_dbt:
+  data_pulse:
     src_staging:
       +materialized: view
       #+database: PRD
